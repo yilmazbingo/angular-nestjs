@@ -1,0 +1,33 @@
+### Signup user
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name":"yilmaz",
+    "username":"yilmazitoooo"
+}
+
+
+
+### Get users
+
+GET http://localhost:3000/users
+
+
+### GET ONE
+GET http://localhost:3000/users/1
+
+
+### DELETE
+DELETE http://localhost:3000/users/1
+
+
+### UPDATE
+PUT http://localhost:3000/users/4
+Content-Type: application/json
+
+{
+    "name":"yilmazbingo@hotmail.com",
+    "username":"yilmazito"
+
+}
