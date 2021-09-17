@@ -28,6 +28,21 @@ Content-Type: application/json
 
 {
     "name":"yilmazbingo@hotmail.com",
-    "username":"yilmazito"
+    "username":"yilmazito",
+    "email":"dsbfkjdfjkd",
+    "password":"yendien"
+
+}
+
+
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name":"yilmazbingo@hotmail.com",
+    "username":"yilmazito",
+    "email":"dsbfkjdfjkd",
+    "password":"yendien"
 
 }
